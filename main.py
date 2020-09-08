@@ -3,32 +3,26 @@
 # Collaborator:tmd5681@psu.edu
 # Section: 1
 # Breakout: 14
-
-  g = input("Enter your CMPSC 131 grade: ")
-  if g<60:
-    print(f"Your letter grade for CMPSC 131 is F.\n")
-  }
-  elif g<70:
-    print(f"Your letter grade for CMPSC 131 is D.\n")
-  }
-  elif g<77:
-    print(f"Your letter grade for CMPSC 131 is C.\n")
-  }
-  elif g<80:
-    print(f"Your letter grade for CMPSC 131 is C+.\n")
-  }
-  elif g<83:
-    print(f"Your letter grade for CMPSC 131 is B-.\n")
-  }
-  elif g<87:
-    print(f"Your letter grade for CMPSC 131 is B.\n")
-  }
-  elif g<90:
-    print(f"Your letter grade for CMPSC 131 is B+.\n")
-  }
+def getLetterGrade(g):
+  if g<60 :
+    print(f"Your letter grade for CMPSC 131 is F.")
+  elif g<70 :
+    print(f"Your letter grade for CMPSC 131 is D.")
+  elif g<77 :
+    print(f"Your letter grade for CMPSC 131 is C.")
+  elif g<80 :
+    print(f"Your letter grade for CMPSC 131 is C+.")
+  elif g<83 :
+    print(f"Your letter grade for CMPSC 131 is B-.")
+  elif g<87 :
+    print(f"Your letter grade for CMPSC 131 is B.")
+  elif g<90 :
+    print(f"Your letter grade for CMPSC 131 is B+.")
   elif g<93 :
-    print(f"Your letter grade for CMPSC 131 is A-.\n")
-  
+    print(f"Your letter grade for CMPSC 131 is A-.")
   else :
-    print(f"Your letter grade for CMPSC 131 is A.\n")
-  
+    print(f"Your letter grade for CMPSC 131 is A.")
+
+if __name__ =="__main__":
+  g = float(input("Enter your CMPSC 131 grade: "))
+  getLetterGrade(g)
