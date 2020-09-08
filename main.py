@@ -3,7 +3,7 @@
 # Collaborator:tmd5681@psu.edu
 # Section: 1
 # Breakout: 14
-def getLetterGrade(g):
+def get_LetterGrade(g):
   if g<60 :
     print(f"Your letter grade for CMPSC 131 is F.")
   elif g<70 :
@@ -24,5 +24,5 @@ def getLetterGrade(g):
     print(f"Your letter grade for CMPSC 131 is A.")
 
 if __name__ =="__main__":
-  g = float(input("Enter your CMPSC 131 grade: "))
-  getLetterGrade(g)
+  a = float(input("Enter your CMPSC 131 grade: "))
+  get_LetterGrade(a)
